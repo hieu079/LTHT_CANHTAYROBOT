@@ -1,6 +1,6 @@
 # Cánh tay Robot 3 bậc tự do điều khiển thời gian thực với FreeRTOS và Giao diện Python
 
-![Python](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Blue_Python_3.10%2B_Shield_Badge.svg)
+![Python](https://img.shields.io/badge/pythonanywhere-%232F9FD7.svg?style=for-the-badge&logo=pythonanywhere&logoColor=151515)
 ![Arduino](https://img.shields.io/badge/Arduino%20(C++)-orange)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -17,7 +17,7 @@ Hệ thống cho phép người dùng điều khiển robot theo tọa độ kh�
 
 | Giao diện điều khiển (GUI) | Mô hình Robot thực tế |
 | :---: | :---: |
-| ![Giao diện điều khiển](link_den_hinh_anh/giao_dien_gui.png) | ![Mô hình Robot](link_den_hinh_anh/robot_thuc_te.jpg) |
+| ![Giao diện điều khiển](https://ibb.co/nhv9bHm) | ![Mô hình Robot](https://ibb.co/chzFy1Np) |
 
 ## Tính năng chính
 
