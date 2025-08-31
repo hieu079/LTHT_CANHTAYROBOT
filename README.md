@@ -1,6 +1,6 @@
 # Cánh tay Robot 3 bậc tự do điều khiển thời gian thực với FreeRTOS và Giao diện Python
 
-![Python](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://upload.wikimedia.org/wikipedia/commons/1/16/Blue_Python_3.10%2B_Shield_Badge.svg)
 ![Arduino](https://img.shields.io/badge/Arduino%20(C++)-orange)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -35,7 +35,7 @@ Hệ thống được thiết kế theo mô hình Client-Server:
 - **Client (PC):** Ứng dụng Python với giao diện Tkinter, chịu trách nhiệm tính toán động học và gửi lệnh.
 - **Server (Vi điều khiển):** Firmware FreeRTOS trên LGT8F328P, nhận lệnh, quản lý các tác vụ và điều khiển phần cứng.
 
-![Sơ đồ khối hệ thống](link_den_hinh_anh/so_do_khoi.png)
+![Sơ đồ khối hệ thống](https://i.ibb.co/n4n268H/bbbb.png)
 
 ### Phần cứng
 - **Vi điều khiển:** LGT8F328P (Tương thích Arduino, hiệu năng cao).
@@ -96,10 +96,12 @@ Hệ thống sử dụng một giao thức gói tin nhị phân tùy chỉnh qua
     - Vào `File > Preferences`.
     - Trong ô "Additional Boards Manager URLs", dán link sau: `https://raw.githubusercontent.com/dbuezas/lgt8fx/master/package_lgt8fx_index.json`.
     - Vào `Tools > Board > Boards Manager`, tìm "LGT8F" và cài đặt.
+    - Chi tiết hướng dẫn ở link: https://drive.google.com/file/d/1qtqUgPM83gQCf6iKPLxniyYX50QsaeeN/view?usp=sharing
 3.  **Chọn Board và Cổng COM:**
     - `Tools > Board`: Chọn "LGT8F328P".
     - `Tools > Port`: Chọn đúng cổng COM mà robot đang kết nối.
 4.  Nhấn nút **Upload** để nạp chương trình.
+
 
 #### Bước 2: Chạy ứng dụng điều khiển Python
 
