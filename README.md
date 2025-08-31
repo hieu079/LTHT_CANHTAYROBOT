@@ -102,8 +102,18 @@ Hệ thống sử dụng một giao thức gói tin nhị phân tùy chỉnh qua
     - `Tools > Port`: Chọn đúng cổng COM mà robot đang kết nối.
 4.  Nhấn nút **Upload** để nạp chương trình.
 
-
-#### Bước 2: Chạy ứng dụng điều khiển Python
+#### Bước 2: Tinh chỉnh file DOFUarm.py
+1.  Mở file DOFUarm.py dưới dạng notepad hoặc visual Studio Code.
+2.  Di chuyển đến phần def _init_:
+    def __init__(
+        self,
+        port: str = "COM6",  # Tên cổng serial mặc định trên Windows
+        baud: int = 115200,  # Baudrate mặc định (tốc độ truyền)
+        config_path: str | os.PathLike[str] = "config.json",  # File lưu cấu hình góc Home
+    )
+3.  Chỉnh lại phần "COM6" thích hợp cho cổng USB hiện tại của bạn:
+    [ảnh minh họa cách xem cổng com trong control Panel > Control Panel\Hardware and Sound > device Manager](https://support.arduino.cc/hc/article_attachments/12415977650332)
+#### Bước 3: Chạy ứng dụng điều khiển Python
 
 1.  Mở terminal hoặc command prompt.
 2.  Di chuyển đến thư mục chứa dự án.
