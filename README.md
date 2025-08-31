@@ -17,7 +17,7 @@ Hệ thống cho phép người dùng điều khiển robot theo tọa độ kh�
 
 | Giao diện điều khiển (GUI) | Mô hình Robot thực tế |
 | :---: | :---: |
-| ![Giao diện điều khiển](https://ibb.co/nhv9bHm) | ![Mô hình Robot](https://ibb.co/chzFy1Np) |
+| ![Giao diện điều khiển](https://i.ibb.co/fGqVTk16/image.png) | ![Mô hình Robot](https://i.ibb.co/MkqVgsRj/aa.png) |
 
 ## Tính năng chính
 
