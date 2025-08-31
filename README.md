@@ -1,6 +1,6 @@
 # Cánh tay Robot 3 bậc tự do điều khiển thời gian thực với FreeRTOS và Giao diện Python
 
-![Python](https://img.shields.io/badge/pythonanywhere-%232F9FD7.svg?style=for-the-badge&logo=pythonanywhere&logoColor=151515)
+![Python](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino%20(C++)-orange)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
